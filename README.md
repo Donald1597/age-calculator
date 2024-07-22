@@ -9,6 +9,10 @@ A web application that calculates your exact age and the number of days until yo
 - Save the last entered date in local storage for future use.
 - Beautiful and responsive design with Tailwind CSS.
 
+### Prerequisites
+
+- Node.js and npm installed
+
 ## Getting Started
 
 ### Prerequisites
@@ -20,9 +24,13 @@ A web application that calculates your exact age and the number of days until yo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Donald1597/age-calculator.git
-   cd age-calculator
+    git clone https://github.com/Donald1597/age-calculator.git
 
+    cd age-calculator
+
+    Install the necessary dependencies: npm install
+
+    Build the Tailwind CSS file: npm run build:css
    ```
 
 2. Open index.html in your web browser.
