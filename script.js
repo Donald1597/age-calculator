@@ -5,15 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const yearInput = document.getElementById("year");
   const resultDiv = document.getElementById("result");
 
-  // Load last entered date from local storage
-  const lastDate = localStorage.getItem("lastDate");
-  if (lastDate) {
-    const [year, month, day] = lastDate.split("-");
-    yearInput.value = year;
-    monthInput.value = month;
-    dayInput.value = day;
-  }
-
   ageForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -102,8 +93,5 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       document.querySelector(".countdown-bar").style.width = "100%";
     }, 100);
-
-    // Save date to local storage
-    localStorage.setItem("lastDate", `${yearValue}-${monthValue}-${dayValue}`);
   });
 });
