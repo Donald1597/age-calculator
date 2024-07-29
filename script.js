@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!dayValue || !monthValue || !yearValue) {
       resultDiv.innerHTML =
-        '<div style="color: #f56565;">Please enter a valid date.</div>';
+        '<div style="color: #f56565;">Please enter a valid date please.</div>';
       resultDiv.style.opacity = "1";
       return;
     }

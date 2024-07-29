@@ -7,7 +7,7 @@
     "build:css": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Donald APOVO apovodonald@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
